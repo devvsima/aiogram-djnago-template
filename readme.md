@@ -12,7 +12,7 @@
 First, clone the repository and navigate to its directory:
 
 ```bash
-git clone https://github.com/devvsima/aiogram3-template.git
+git clone https://github.com/devvsima/aiogram-django-template.git
 cd django_and_aiogram
 ```
 
