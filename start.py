@@ -5,7 +5,7 @@ import time
 import django
 
 # Устанавливаем переменную окружения для Django
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "app.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_core.settings")
 
 
 def run_django():
@@ -28,9 +28,9 @@ async def run_bot():
 
     django.setup()  # ВАЖНО: Это подготавливает Django для работы с ORM
 
-    from tgbot.run import run_bot  # Импорт внутри функции после инициализации Django
+    from tgbot_admin.bot.run_bot import runbot  # Импорт внутри функции после инициализации Django
 
-    await run_bot()  # Запуск Telegram-бота
+    await runbot()  # Запуск Telegram-бота
 
 
 def start_bot():

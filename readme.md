@@ -1,7 +1,7 @@
 # Django & Aiogram template
 
 - `Django`
-- `Aiogram 3`
+- `Aiogram 2`
 - `i18n`
 - ORM: `DjangoORM`
 - Database: `PostgreSQL \ Sqlite, Redis`
