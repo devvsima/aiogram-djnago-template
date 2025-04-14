@@ -1,11 +1,10 @@
+from typing import Any, Callable
+
 from aiogram import BaseMiddleware
 from aiogram.types import Message
 
-from tgbot.utils.base62 import decode_base62
-
-from typing import Any, Callable
-
 from tgbot.database.services.users import create_user, get_user, new_referral
+from tgbot.utils.base62 import decode_base62
 
 
 class StartMiddleware(BaseMiddleware):

@@ -1,7 +1,8 @@
-import os
 import asyncio
-from multiprocessing import Process, current_process
+import os
 import time
+from multiprocessing import Process, current_process
+
 import django
 
 # Устанавливаем переменную окружения для Django

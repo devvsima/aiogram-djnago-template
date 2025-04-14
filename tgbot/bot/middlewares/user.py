@@ -1,7 +1,7 @@
-from aiogram import BaseMiddleware
-from aiogram.types import Message, CallbackQuery
-
 from typing import Any, Callable
+
+from aiogram import BaseMiddleware
+from aiogram.types import CallbackQuery, Message
 
 from tgbot.database.services.users import get_or_create_user
 

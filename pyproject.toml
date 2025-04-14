@@ -1,0 +1,15 @@
+[project]
+name = "aiogram-djnago-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram>=3.20.0",
+    "django>=5.2",
+    "django-debug-toolbar>=5.1.0",
+    "django-jazzmin>=3.0.1",
+    "environs>=14.1.1",
+    "loguru>=0.7.3",
+    "redis>=5.2.1",
+]

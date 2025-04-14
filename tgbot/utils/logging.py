@@ -1,9 +1,11 @@
 from logging import getLogger
-from app.settings import tg_settings
+
 from loguru import logger
 
+from app.settings import tgbot
+
 logger.add(
-    tg_settings.LOGS_DIR,
+    tgbot.LOGS_DIR,
     format="[{time}] [{level}] [{file.name}:{line}]  {message}",
     level="DEBUG",
     rotation="1 month",
